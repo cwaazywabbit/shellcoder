@@ -3,6 +3,8 @@ Generates shellcodes from a given assembly code and formats the output in a way 
 
 The following is an exemplary output. On the left you have your opcodes next to each mnemonic (in the middel) so you know what they stand for, and on the far right you have your extra comments from the original assembly code.. everything is neatly formatted :)
 
+Use `-c` to suppress empty lines for a compacter overview!
+
 ```
 > python3 shellcoder.py 
 sc = b""
