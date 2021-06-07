@@ -21,7 +21,6 @@ sc += b""                                               #; Use Python comments i
 sc += b""                                               #; Use labels!
 sc += b""                                               #; Don't worry about branching statements, they're taken care of and double checked at the end!
 sc += b""                                               #; You can use CTypes at the end of the code to testrun your code in memory before moving into prod!
-sc += b""                                               #; Bonus: keeps track of EIP after each call to find_function
 sc += b""                                               #;-------------------------------------------------------------------------------------------;
 sc += b""                                               # fake_start:
 sc += b""                                               #int3                       # bp for windbg, remove when not debugging
